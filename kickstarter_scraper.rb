@@ -2,7 +2,7 @@ require 'nokogiri'
 require 'pry'
 
 def create_project_hash
-  html = File.read('fixtures/kickstarter.rb')
+  html = File.read('fixtures/kickstarter.')
   kickstarter = Nokogiri::HTML(html)
   binding.pry
 end
